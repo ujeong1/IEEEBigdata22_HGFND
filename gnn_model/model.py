@@ -6,6 +6,17 @@ from torch_geometric.nn import SAGEConv, global_max_pool
 from gnn_model.layers import HyperGraphAttentionLayerSparse
 import math
 
+'''
+Propagation Encoder is originally from the paper
+@inproceedings{dou2021user,
+  title={User preference-aware fake news detection},
+  author={Dou, Yingtong and Shu, Kai and Xia, Congying and Yu, Philip S and Sun, Lichao},
+  booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={2051--2055},
+  year={2021}
+}
+'''
+
 class PropagationEncoder(nn.Module):
     def __init__(self, args, hypergraph_model):
         super().__init__()
@@ -78,7 +89,15 @@ class NewsHypergraph(Module):
     def forward(self, nodes, HT):
         hypergraph, edge_att = self.hgnn(nodes, HT)  # documents are nodes and inputs
         return hypergraph, edge_att
-
+'''
+HGNN_ATT is from the paper
+@article{ding2020more,
+  title={Be more with less: Hypergraph attention networks for inductive text classification},
+  author={Ding, Kaize and Wang, Jianling and Li, Jundong and Li, Dingcheng and Liu, Huan},
+  journal={arXiv preprint arXiv:2011.00387},
+  year={2020}
+}
+'''
 class HGNN_ATT(nn.Module):
     def __init__(self, input_size, n_hid, output_size, dropout=0.3):
         super(HGNN_ATT, self).__init__()
