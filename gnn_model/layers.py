@@ -4,7 +4,15 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn.parameter import Parameter
 
-
+'''
+HyperGraphAttentionLayerSparse is from the paper
+@article{ding2020more,
+  title={Be more with less: Hypergraph attention networks for inductive text classification},
+  author={Ding, Kaize and Wang, Jianling and Li, Jundong and Li, Dingcheng and Liu, Huan},
+  journal={arXiv preprint arXiv:2011.00387},
+  year={2020}
+}
+'''
 class HyperGraphAttentionLayerSparse(nn.Module):
     def __init__(self, in_features, out_features, dropout, alpha, transfer, concat=True, bias=False):
         super(HyperGraphAttentionLayerSparse, self).__init__()
