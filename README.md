@@ -1,5 +1,12 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/nothing-stands-alone-relational-fake-news-1/graph-classification-on-upfd-pol)](https://paperswithcode.com/sota/graph-classification-on-upfd-pol?p=nothing-stands-alone-relational-fake-news-1)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/nothing-stands-alone-relational-fake-news-1/graph-classification-on-upfd-gos)](https://paperswithcode.com/sota/graph-classification-on-upfd-gos?p=nothing-stands-alone-relational-fake-news-1)
+
+If you use the code in your project, please cite the following paper:
+
+IEEE Big Data'22 ([PDF](https://arxiv.org/abs/2212.12621))
+![Alt text](proposed_model.png?raw=true "Title")
+
+
 # Setups
 1. [Create environment using Conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 : We use following command to make conda env on Ubuntu 20.04 using Conda with python 3.7.6
