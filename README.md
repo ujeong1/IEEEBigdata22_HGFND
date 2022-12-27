@@ -27,7 +27,7 @@ conda install pyg -c pyg
 # Usage
 1. Run the code with following commandline/parameters
 ```bash
- python main.py --use_user true --use_date true --use_entity true --dataset politifact
+ python main.py --dataset politifact
 ```
 
 # Trouble Shooting
