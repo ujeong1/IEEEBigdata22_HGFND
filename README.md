@@ -1,3 +1,5 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/nothing-stands-alone-relational-fake-news-1/graph-classification-on-upfd-pol)](https://paperswithcode.com/sota/graph-classification-on-upfd-pol?p=nothing-stands-alone-relational-fake-news-1)
+
 # Setups
 1. [Create environment using Conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 : We use following command to make conda env on Ubuntu 20.04 using Conda with python 3.7.6
