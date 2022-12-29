@@ -5,12 +5,14 @@ If you use the code in your project, please cite the following paper:
 
 IEEE Big Data'22 ([PDF](https://arxiv.org/abs/2212.12621))
 
+```bash
 @article{jeong2022nothing,
   title={Nothing Stands Alone: Relational Fake News Detection with Hypergraph Neural Networks},
   author={Jeong, Ujun and Ding, Kaize and Cheng, Lu and Guo, Ruocheng and Shu, Kai and Liu, Huan},
   journal={arXiv preprint arXiv:2212.12621},
   year={2022}
 }
+```
 
 ![Alt text](proposed_model.png?raw=true "Title")
 
