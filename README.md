@@ -1,5 +1,5 @@
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/nothing-stands-alone-relational-fake-news-1/graph-classification-on-upfd-pol)](https://paperswithcode.com/sota/graph-classification-on-upfd-pol?p=nothing-stands-alone-relational-fake-news-1)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/nothing-stands-alone-relational-fake-news-1/graph-classification-on-upfd-gos)](https://paperswithcode.com/sota/graph-classification-on-upfd-gos?p=nothing-stands-alone-relational-fake-news-1)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/nothing-stands-alone-relational-fake-news-2/graph-classification-on-upfd-pol)](https://paperswithcode.com/sota/graph-classification-on-upfd-pol?p=nothing-stands-alone-relational-fake-news-2)
+
 
 If you use the code in your project, please cite the following paper:
 
