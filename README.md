@@ -6,11 +6,13 @@ If you use the code in your project, please cite the following paper:
 IEEE Big Data'22 ([PDF](https://arxiv.org/abs/2212.12621))
 
 ```bash
-@article{jeong2022nothing,
-  title={Nothing Stands Alone: Relational Fake News Detection with Hypergraph Neural Networks},
+@inproceedings{jeong2022nothing,
+  title={Nothing stands alone: Relational fake news detection with hypergraph neural networks},
   author={Jeong, Ujun and Ding, Kaize and Cheng, Lu and Guo, Ruocheng and Shu, Kai and Liu, Huan},
-  journal={arXiv preprint arXiv:2212.12621},
-  year={2022}
+  booktitle={2022 IEEE International Conference on Big Data (Big Data)},
+  pages={596--605},
+  year={2022},
+  organization={IEEE}
 }
 ```
 
